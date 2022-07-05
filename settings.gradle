@@ -1,3 +1,2 @@
-include ':customerapp'
 include ':app'
-rootProject.name = "Github User3"
+rootProject.name = "Github User2"

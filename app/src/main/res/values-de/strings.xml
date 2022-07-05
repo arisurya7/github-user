@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Github User3</string>
+    <string name="app_name">Github User2</string>
     <string name="tab_1">Anhänger</string>
     <string name="tab_2">Folgenden</string>
     <string name="name_user">Name Benutzer</string>
@@ -21,20 +21,8 @@
     <string name="oops">Oops!!</string>
     <string name="desc_no_connect">Keine Internetverbindung gefunden. \nPrüfe deine Internetverbindung</string>
     <string name="try_again">Versuchen Nochmal</string>
-    <string name="add_fav">Zum Lieblingsbenutzer hinzugefügt</string>
-    <string name="rm_fav">Vom Lieblingsbenutzer entfernt</string>
-    <string name="settings">die Einstellungen</string>
-    <string name="notification_message">Zeit, Ihren Benutzerfavoriten zu finden!</string>
-    <string name="remainder_on">Repeating Alarm ist an</string>
-    <string name="remainder_pending">Repeating Alarm steht noch aus</string>
-    <string name="no_favorite">kein Favorit</string>
-    <string name="not_found_favorite_user">Nicht gefundener Lieblingsbenutzer</string>
-    <string name="remainder_at_9_00_am">Ramainder  9.00 AM</string>
-    <string name="on">ON</string>
-    <string name="off">OFF</string>
-    <string name="select_language">Select Language</string>
-    <string name="lang">German</string>
-    <string name="favorite">Favorit</string>
-    <string name="share">Teilen</string>
-    <string name="fav_user">Lieblingsbenutzer</string>
+    <string name="title_exit">Beenden Sie GitHub Users</string>
+    <string name="ask_exit">willst du aussteigen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
 </resources>
