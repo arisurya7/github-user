@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.settings.SettingsActivity">
+
+
+    <Switch
+        android:id="@+id/switch_remainder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:drawableStart="@drawable/ic_baseline_notifications_red_24"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/remainder_at_9_00_am"
+        android:textOff="@string/on"
+        android:textOn="@string/off"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    <TextView
+        android:id="@+id/select_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/select_language"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:drawableStartCompat="@drawable/ic_baseline_g_translate_24" />
+
+    <TextView
+        android:id="@+id/language_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:background="?android:selectableItemBackground"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/lang"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/select_language"
+        app:layout_constraintTop_toBottomOf="@+id/select_language" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="24dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintEnd_toEndOf="@+id/switch_remainder"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/switch_remainder"
+        app:layout_constraintTop_toBottomOf="@+id/switch_remainder" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

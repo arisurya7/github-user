@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Customer App</string>
+    <string name="name_user">Nama Pengguna</string>
+    <string name="user">Pengguna</string>
+    <string name="oops">Oops!!</string>
+    <string name="desc_no_connect">Tidak ditemukan koneksi internet. \n Cek jaringan internet anda</string>
+    <string name="try_again">Coba Lagi</string>
+    <string name="not_found_favorite_user">Tidak Ditemukan Pengguna Disukai</string>
+    <string name="visit">Kunjungi</string>
+    <string name="no_favorite">tidak ada disukai</string>
+</resources>

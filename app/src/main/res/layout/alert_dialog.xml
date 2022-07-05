@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:padding="20dp"
+    android:background="@drawable/background_alert">
+
+    <ImageView
+        android:id="@+id/ic_no_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/no_connection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/title_no_connection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/oops"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/ic_no_connection"
+        app:layout_constraintStart_toStartOf="@+id/ic_no_connection"
+        app:layout_constraintTop_toBottomOf="@+id/ic_no_connection" />
+
+    <TextView
+        android:id="@+id/desc_disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/desc_no_connect"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/title_no_connection"
+        app:layout_constraintStart_toStartOf="@+id/title_no_connection"
+        app:layout_constraintTop_toBottomOf="@+id/title_no_connection" />
+
+    <Button
+        android:id="@+id/btn_try_again"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ripple_bottom"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/try_again"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/desc_disconnect"
+        app:layout_constraintStart_toStartOf="@+id/desc_disconnect"
+        app:layout_constraintTop_toBottomOf="@+id/desc_disconnect" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
