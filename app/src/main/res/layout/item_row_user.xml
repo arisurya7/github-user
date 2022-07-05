@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutList">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_user_avatar"
+        style="@style/ListCircleImage" />
+
+    <LinearLayout style="@style/VerticalWidthMatchHeightWrap">
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            style="@style/TitleListName" />
+
+        <TextView
+            android:id="@+id/tv_user_company"
+            style="@style/DescListCompany" />
+
+        <TextView
+            android:id="@+id/tv_user_location"
+            style="@style/DescListLocation" />
+
+    </LinearLayout>
+</LinearLayout>

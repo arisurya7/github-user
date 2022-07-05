@@ -1,28 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Github User2</string>
-    <string name="tab_1">Followers</string>
-    <string name="tab_2">Following</string>
-    <string name="name_user">Name User</string>
-    <string name="user">User</string>
-    <string name="github_users">GitHub Users</string>
-    <string name="search">Search</string>
-    <string name="ask_join">don\'t have a github account?</string>
-    <string name="let_s_join">Join</string>
-    <string name="search_result">Search Result :</string>
-    <string name="desc_no_search">No Search Results \nTry Searching</string>
-    <string name="no_result">no result</string>
-    <string name="button_search">button search</string>
-    <string name="background_detail">background detail</string>
-    <string name="card_detail">card detail</string>
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="no_name">No Name</string>
+    <string name="company_name">Company Name</string>
+    <string name="user_location">User Location</string>
     <string name="repository">Repository</string>
-    <string name="followers">Followers</string>
+    <string name="_0">0</string>
+    <string name="follower">Follower</string>
     <string name="following">Following</string>
-    <string name="oops">Oops!!</string>
-    <string name="desc_no_connect">No internet connection found. \n Check your internet connection</string>
-    <string name="try_again">Try Again</string>
-    <string name="title_exit">Exit GitHub Users</string>
-    <string name="ask_exit">do you want exit?</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
+    <string name="username">username</string>
+    <string name="github_user">Github User</string>
+    <string name="search">Search</string>
 </resources>
