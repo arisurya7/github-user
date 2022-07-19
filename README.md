@@ -13,7 +13,12 @@ https://github.com/arisurya7/github-user.git
 
 
 ## User Interface
-
+<p align="left">
+    <img src="https://user-images.githubusercontent.com/57089067/178095897-29bd6ec1-885b-4a6f-9f6f-cdf2b4d4bab8.jpg"
+        alt="Search Screen Waiting"
+        style="margin-right: 10px;"
+        width="700" />
+</p>
 
 ## Dependencies
 - Lifecycle & Livedata
